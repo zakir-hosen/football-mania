@@ -51,32 +51,31 @@ body {
 .title-area {
     color: #fff;
     font-size: 50px;
-    width: 50%;
+    width: 60%;
     margin-left: 50px;
     font-style: normal;
     font-weight: bold;
-    line-height: 80px;
+    
 }
 
 .image-area {
-    width: 50%;
+    width: 40%;
 }
 .image-area img {
-    height: 438px;
-    width: 557px;
+    
+    width: 100%;
+    padding: ;
 }
 
 
 
 /* top players style */
-.top-players {
-    
-}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 50px ;
-    font-family: ;
+    justify-content: center;
     
     
     
@@ -112,19 +111,28 @@ body {
     margin : 10px;
     font-size: 25px;
 }
+.social-connection i {
+    color: cornflowerblue;
+}
+.social-connection i:hover {
+    transition: all 0;
+    color: lightseagreen;
+}
+
 .copyright {
     font-size: 18px;
-    color:;
+    
 }
 
 /* --
 media queries  */
 
-
-@media (max-width: 768px) {
+/* Mobile devices */
+@media (max-width: 668px) {
     .sign-up-area {
         flex-direction: column;
         text-align: center;
+        
     }
     .sign-up-area img {
         margin-left: 40%;
@@ -134,35 +142,46 @@ media queries  */
     }
     .title-area {
         width: 50%;
-        text-align: center;
-        padding: 0;
+       margin: 0;
     }
+    
+    
     .players {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .logo-area img {
         width: 100%;
     }
 }
-@media  (max-width: 688px) {
-    .sign-up-area {
+/* 
+tablat devices */
+@media only screen and (min-width: 668px ) and (max-width: 992px) {
+    .sign-up-area 
+       {
         flex-direction: column;
         text-align: center;
     }
-    .header {
-        flex-direction: column;
+    .sign-up-area img {
+        margin-left: 40%;
     }
+     .header {
+        flex-direction: column;
+     }
+     
     .title-area {
         width: 50%;
+        margin-bottom: 10px;
     }
     .players {
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            
+            
 
     }
+  
     .logo-area img {
-        width: 100%;
-    }
+        width: 50%;
+    } 
+    
 }
-
-
 
