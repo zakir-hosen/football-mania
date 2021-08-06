@@ -34,7 +34,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: lightblue
+  border-radius: .5rem;
 }
 
  .input  {
@@ -42,6 +45,8 @@ body {
   font-size: 17px;
   border: 1px solid grey;
   width: 90%;
+  background-color:lightblue;
+  
  
 }
 
@@ -184,6 +189,10 @@ media queries  */
     .players {
         grid-template-columns: repeat(1, 1fr);
     }
+     .container {
+        justify-content: center;
+        align-items: center;
+    }
     .logo-area img {
         width: 30%;
     }
@@ -208,18 +217,13 @@ tablat devices */
         margin-bottom: 10px;
     }
     .players {
-            grid-template-columns: repeat(2, 1fr);
-            
-            
-
+         grid-template-columns: repeat(2, 1fr);    
     }
-    .container {
+    /* .container {
         justify-content: center;
         align-items: center;
-    }
-    .logo-area {
-        width: 50%;
-    } 
+    } */
+
     .logo-area img {
         width: 100%;
     }
