@@ -16,9 +16,38 @@ body {
     font-size:  20px;
     background-color: aquamarine;
     margin-bottom: 20px;
+    transition: 0.3s;
+}
+.btn:hover {
+    transition-delay: inherit;
+    background-color: lightcyan;
 }
 
 /* common style ends */
+
+/* search form starts */
+
+/* Style the search field */
+
+.bar-wraper  {
+    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+ .input input {
+    padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 90%;
+ 
+}
+
+
+
+
 
 
 
@@ -184,10 +213,16 @@ tablat devices */
             
 
     }
-  
-    .logo-area img {
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+    /* .logo-area {
         width: 50%;
-    } 
+    }  */
+    .logo-area img {
+        width: 100%;
+    }
     
 }
 
