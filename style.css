@@ -217,9 +217,9 @@ tablat devices */
         justify-content: center;
         align-items: center;
     }
-    /* .logo-area {
+    .logo-area {
         width: 50%;
-    }  */
+    } 
     .logo-area img {
         width: 100%;
     }
