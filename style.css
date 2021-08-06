@@ -20,6 +20,11 @@ body {
 
 /* common style ends */
 
+
+
+
+
+
 /* signup area  */
     .sign-up-area {
         padding: 20px 10px;
@@ -129,6 +134,7 @@ media queries  */
 
 /* Mobile devices */
 @media (max-width: 668px) {
+    
     .sign-up-area {
         flex-direction: column;
         text-align: center;
@@ -150,7 +156,7 @@ media queries  */
         grid-template-columns: repeat(1, 1fr);
     }
     .logo-area img {
-        width: 100%;
+        width: auto;
     }
 }
 /* 
@@ -180,7 +186,7 @@ tablat devices */
     }
   
     .logo-area img {
-        width: 50%;
+        width: 300px;
     } 
     
 }
